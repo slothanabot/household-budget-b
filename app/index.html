@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DompetKeluarga — Family Wallet</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <a class="brand" href="#/">
+      <span class="brand-mark">Dk</span>
+      <span class="brand-text"><strong>DompetKeluarga</strong><em>Family Wallet</em></span>
+    </a>
+    <nav class="sidenav" aria-label="Sections">
+      <a href="#/" data-route="">Overview</a>
+      <a href="#/planner" data-route="planner">Weekly Planner</a>
+      <a href="#/transactions" data-route="transactions">Transactions</a>
+      <a href="#/reports" data-route="reports">Reports</a>
+      <a href="#/savings" data-route="savings">Savings</a>
+    </nav>
+    <div class="side-card">
+      <p class="side-label">November budget left</p>
+      <p class="side-big" id="side-left">$1,730.00</p>
+      <p class="side-note">of $4,850 income &middot; 4 people</p>
+    </div>
+    <button class="reset-btn" id="reset-demo" type="button">Reset demo data</button>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <div>
+        <h1 id="page-title">Overview</h1>
+        <p class="subtitle" id="page-subtitle">The Hartono family &middot; November 2026</p>
+      </div>
+      <span class="month-chip">Nov 2026</span>
+    </header>
+    <main id="app"></main>
+    <footer class="foot">DompetKeluarga keeps every rupiah of the household in one place — plan the week, track every spend, and watch the jars fill up. All data lives in your browser; nothing leaves this device.</footer>
+  </div>
+</div>
+<nav class="bottomnav" aria-label="Sections">
+  <a href="#/" data-route="">Overview</a>
+  <a href="#/planner" data-route="planner">Planner</a>
+  <a href="#/transactions" data-route="transactions">Money</a>
+  <a href="#/reports" data-route="reports">Reports</a>
+  <a href="#/savings" data-route="savings">Savings</a>
+</nav>
+</body>
+</html>
